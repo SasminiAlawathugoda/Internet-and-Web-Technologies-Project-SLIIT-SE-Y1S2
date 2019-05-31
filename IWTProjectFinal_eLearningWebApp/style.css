@@ -1,0 +1,61 @@
+.rightButtons{
+    float: right;
+    text-decoration: none;
+}
+
+.headLine{
+    text-align: center;
+    font-family: "Arial Black";
+    font-size: 200%;
+    text-align: center;
+    padding-top: 2%;
+}
+
+nav{
+    margin-top: 11%;
+    background-color: gray;
+    padding: 1%;
+    border-top: black solid;
+    border-bottom: black solid;
+}
+
+.a{
+    color: white;
+    text-decoration: none;
+    margin-right: 15%;
+}
+
+.headerLeft{
+    float: left;
+}
+
+.header{
+    background-color: #b2e44a;
+}
+
+.features{
+
+}
+
+.Homepage_steps{
+    float: left;
+    font-family: 'Georgia';
+    margin-right: 8%;
+    border: black solid;
+    border-width: 0.5px;
+    padding: 1%;
+}
+
+
+
+
+footer{
+    background-color:#b2e44a ;
+    color: black;
+    text-align: center;
+    padding: 1px;
+}
+
+a.manMat{
+    text-decoration: none;
+}

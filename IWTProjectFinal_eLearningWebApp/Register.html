@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="header">
+    <div class="headerLeft">
+        <table>
+            <tr>
+                <td><img src="Logo.png "></td>
+            </tr>
+        </table>
+    </div>
+
+    <table class="rightButtons">
+        <tr>
+            <td><a href="LogIn.html" style="text-decoration: none"><input type="button" value="Log In"></a></td>
+            <td><a href="Register.html" style="text-decoration: none"><input type="button" value="Sign Up"></a></td>
+        </tr>
+    </table>
+
+    <div class="headLine">
+        E Learning Academy
+    </div>
+
+    <nav>
+        <a href="Homepage.html" class="a">Home</a>
+        <a href="Features.html" class="a">Features</a>
+        <a href="Pricing.html" class="a">Pricing</a>
+        <a href="AboutUs.html" class="a">About Us</a>
+    </nav>
+</div>
+
+<form name="RegForm" action="RegisterDB.php" method="post" style="margin-left: 40%; margin-top: 5%">
+    <h4>Create new Account</h4>
+    <table>
+        <tr>
+            <td>Username</td>
+            <td><input type="text" name="uname" placeholder="Saman123"></td>
+        </tr>
+
+        <tr>
+            <td>E-mail Address</td>
+            <td><input type="email" name="email" placeholder="someone@gmail.com"></td>
+        </tr>
+
+        <tr>
+            <td>Password</td>
+            <td><input type="password" name="password"></td>
+        </tr>
+
+        <tr>
+            <td>Confirm Password</td>
+            <td><input type="password" name="cpassword"></td>
+        </tr>
+
+        <tr>
+            <td><input type="submit" value="OK"></td>
+            <td><input type="reset" value="Cancel"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
